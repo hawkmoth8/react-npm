@@ -1,0 +1,28 @@
+{
+  "name": "react-npm-boilerplate",
+  "version": "1.0.0",
+  "description": "This is a boilerplate for creating React component npm packages",
+  "main": "./build/index.js",
+  "repository": {
+    "url": "https://github.com/hawkmoth8/react-npm-boilerplate"
+  },
+  "scripts": {
+    "start": "webpack --mode development --watch",
+    "build": "webpack --mode production",
+    "test": "react-scripts test"
+  },
+  "dependencies": {
+    "@types/jest": "^24.0.15",
+    "react": "^16.8.6",
+    "react-scripts": "^3.0.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.2"
+  }
+}
